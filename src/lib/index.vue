@@ -25,7 +25,7 @@
 			},
 			color: {
 				type: Array,
-				default: ['#2ecc71']
+				default: () => (['#2ecc71'])
 			},
 			text: {
 				type: String,

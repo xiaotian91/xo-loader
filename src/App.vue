@@ -4,6 +4,10 @@
       <h2>Spin</h2>
       <xo-loader v-show="show" :type="'spin'" :color="['#2ecc71']" :size="{width: '28px', height: '28px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
     </div>
+    <div class="item">
+      <h2>Ball</h2>
+      <xo-loader :type="'ball'" :color="['#F93943']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}"></xo-loader>
+    </div>
   </div>
 </template>
 

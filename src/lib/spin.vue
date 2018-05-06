@@ -33,7 +33,7 @@
 		<div class="xo-loader xo-loader-spin" :style="dimension">
 			<div :style="color"></div>
 		</div>
-		<div class="xo-loader-txt" v-if="text" :style="font">{{text}}</div>
+		<div v-if="text" :style="font">{{text}}</div>
 	</div>
 </template>
 <style scoped lang="scss">
