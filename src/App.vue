@@ -8,6 +8,10 @@
       <h2>Ball</h2>
       <xo-loader :type="'ball'" :color="['#F93943']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}"></xo-loader>
     </div>
+    <div class="item">
+      <h2>Pulse</h2>
+      <xo-loader :type="'pulse'" :color="['#f1c40f', '#F93943']" :size="{width: '28px', height: '28px'}" :font="{fontSize: '12px'}"></xo-loader>
+    </div>
   </div>
 </template>
 
