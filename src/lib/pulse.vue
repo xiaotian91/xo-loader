@@ -38,7 +38,7 @@
 		  <div :style="color1"></div>
 		  <div :style="color2"></div>
 		</div>
-		<div v-if="text" :style="font">{{text}}</div>
+		<div v-if="text" :style="font" style="position: relative; top: -3px;">{{text}}</div>
 	</div>
 </template>
 <style lang="scss" scoped>

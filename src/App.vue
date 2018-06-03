@@ -2,7 +2,7 @@
   <div id="app">
     <div class="item">
       <h2>Spin</h2>
-      <xo-loader v-show="show" :type="'spin'" :color="['#2ecc71']" :size="{width: '28px', height: '28px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
+      <xo-loader v-show="show" :type="'spin'" :color="['#2ecc71']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
     </div>
     <div class="item">
       <h2>Ball</h2>
@@ -10,7 +10,11 @@
     </div>
     <div class="item">
       <h2>Pulse</h2>
-      <xo-loader :type="'pulse'" :color="['#f1c40f', '#F93943']" :size="{width: '28px', height: '28px'}" :font="{fontSize: '12px'}"></xo-loader>
+      <xo-loader :type="'pulse'" :color="['#f1c40f', '#F93943']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}"></xo-loader>
+    </div>
+    <div class="item">
+      <h2>Dot</h2>
+      <xo-loader :type="'dot'" :color="['#f1c40f']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 # xo-loader
 
-> A Vue Loader Components Kit
+> A Vue Loader Components Kit Created BY Vue + CSS3
 
 ## Build Setup
 
