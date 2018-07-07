@@ -16,6 +16,14 @@
       <h2>Dot</h2>
       <xo-loader :type="'dot'" :color="['#f1c40f']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
     </div>
+    <div class="item">
+      <h2>Cube</h2>
+      <xo-loader :type="'cube'" :color="['#F93943']" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}" :text="'载入中...'"></xo-loader>
+    </div>
+    <div class="item">
+      <h2>Square</h2>
+      <xo-loader :type="'square'" :size="{width: '32px', height: '32px'}" :font="{fontSize: '12px'}"></xo-loader>
+    </div>
   </div>
 </template>
 
@@ -52,4 +60,5 @@ export default {
   .item {
     width: 200px;
   }
+  h2 { margin: 0; margin-bottom: 15px;}
 </style>

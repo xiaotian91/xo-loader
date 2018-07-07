@@ -42,10 +42,10 @@
 	</div>
 </template>
 <style lang="scss" scoped>
-
 	.loader {
 	  position: relative;
 	  display: inline-block;
+	  margin-bottom: 15px;
 
 	  & > div {
 		content: '';

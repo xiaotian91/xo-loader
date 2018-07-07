@@ -43,6 +43,7 @@
   		vertical-align: middle;
   		position: relative;
   		font-size: 10px;
+  		margin-bottom: 15px;
 	}
 	.xo-loader.xo-loader-spin {
 		width: 2.8em;

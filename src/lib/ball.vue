@@ -39,6 +39,7 @@
 	.spinner {
 	  position: relative;
 	  display: inline-block;
+	  margin-bottom: 15px;
 	}
   
 	.ball {
